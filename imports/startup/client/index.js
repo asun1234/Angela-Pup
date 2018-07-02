@@ -48,7 +48,7 @@ injectGlobal`
     position: relative;
     min-height: 100%;
   }
-  
+
   body {
     margin-bottom: 80px;
     margin: 0;
