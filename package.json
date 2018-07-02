@@ -24,6 +24,7 @@
     "jszip": "^3.1.5",
     "juice": "^4.2.3",
     "lodash": "^4.17.5",
+    "material-ui": "^0.20.1",
     "meteor-node-stubs": "^0.3.3",
     "moment": "^2.22.1",
     "moment-timezone": "^0.5.16",

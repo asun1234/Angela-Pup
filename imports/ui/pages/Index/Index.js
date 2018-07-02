@@ -2,6 +2,8 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import styled from 'styled-components';
 import { lighten, darken } from 'polished';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import MyAwesomeReactComponent from './MyAwesomeReactComponent';
 
 const StyledIndex = styled.div`
   padding: 20px;
@@ -82,6 +84,11 @@ const Index = () => (
     <p>A boilerplate for products.</p>
     <div>
       <Button href="http://cleverbeagle.com/pup">Read the Docs</Button>
+      &nbsp;&nbsp; &nbsp;&nbsp;
+
+      <MuiThemeProvider>
+        <MyAwesomeReactComponent />
+      </MuiThemeProvider>
       <Button href="https://github.com/cleverbeagle/pup"><i className="fa fa-star" /> Star on GitHub</Button>
     </div>
     <footer>
