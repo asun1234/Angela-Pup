@@ -26,7 +26,7 @@
     "lodash": "^4.17.5",
     "material-ui": "^0.20.1",
     "meteor-node-stubs": "^0.3.3",
-    "moment": "^2.22.1",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.16",
     "polished": "^1.9.2",
     "prop-types": "^15.6.1",
